@@ -1,0 +1,38 @@
+.kal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 10, 39);
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 100px;
+}
+.kal div{
+    display: flex;
+   justify-content: space-around;
+
+}
+input{
+    width: 40px;
+    margin-right: 80px;
+}
+label{
+    color: white;
+    margin-right: 20px;
+}
+button{
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+h1{
+    text-align: center;
+    background-color: white;
+    padding: 10px 0px;
+    height: 40px;
+}
