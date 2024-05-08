@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button button {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 22px;
+  background: #EBF9F1;
+  color: #1F9254;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.button button:hover {
+  box-shadow: 2px 1px 3px #7fcaa0;
+  background-color: #c0c7c3;
+}
+
+.button_orange button {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 22px;
+  background: #FEF2E5;
+  color: #CD6200;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.button_orange button:hover {
+  box-shadow: 2px 1px 3px #FEF2E5;
+  background-color: #e9cbaf;
+}
+
+.button_red button {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 22px;
+  background: #FBE7E8;
+  color: #A30D11;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.button_red button:hover {
+  box-shadow: 2px 1px 3px #eeabaf;
+  background-color: #d79294;
+}
+
+table {
+  max-width: 1078px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  border-collapse: collapse;
+}
+table td {
+  padding: 16px;
+  text-align: left;
+  width: 12.5%;
+}
+
+table tr:nth-child(odd) {
+  background-color: #1D1E42;
+}
+
+table tr:nth-child(even) {
+  background-color: #26264F;
+}
+
+tr th {
+  padding: 16px;
+  text-align: left;
+  width: 12.5%;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+tr th .text {
+  display: flex;
+  align-items: center;
+  gap: 60%;
+}
+tr th .text1 {
+  display: flex;
+  align-items: center;
+  gap: 30%;
+}
+tr th .text2 {
+  display: flex;
+  align-items: center;
+  gap: 70%;
+}
+tr th .text3 {
+  display: flex;
+  align-items: center;
+  gap: 50%;
+  margin-right: -2px;
+}
+
+tr {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.id {
+  padding-left: 16px;
+  width: 120.75;
+}
+
+.hat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}/*# sourceMappingURL=style.css.map */
